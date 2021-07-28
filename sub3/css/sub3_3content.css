@@ -1,0 +1,28 @@
+#content .title_area .last::after{content: ''; display: block; width: 2000px; height: 1px; background: #ccc; position: absolute; top: -20px; z-index: -1;}
+#content .title_area  ul .first{margin-left: 100px; margin-right: 100px; font-family: 'Noto Sans KR', sans-serif; width: 300px;}
+#content .title_area  ul .last{margin-left: 200px; }
+#content .title_area .first a::after{left: 140px;}
+#content .title_area li{margin-left: 300px;}
+#content .title_area li:nth-of-type(1){width: 200px;}
+#content .title_area li:nth-of-type(1) a::after{margin-left: 60px;}
+#content .title_area li:nth-of-type(2){margin-left: 150px;}
+#content .title_area li a{color: #999; overflow: hidden;}
+#content .navOn li:nth-of-type(1){width: 400px;}
+#content .navOn li:nth-of-type(2){margin-left: 0;}
+
+.content_area{font-family: 'Noto Sans KR', sans-serif;}
+.content_area h3{font-size: 2.5em; text-align: center; margin: 150px 0 70px 0;}
+.kontrol_tech p{font-size: 1.125em; text-align: justify; font-weight: 400; margin-bottom: 50px; line-height: 2em; padding: 0 30px;}
+.kontrol_tech p span{color: #ff6600; font-weight: 700;}
+.kontrol_tech img{width: 1000px; height: 460px; left: 50%; margin-left: -500px; position: relative; margin-bottom: 100px;}
+
+.kontrol_more_info .wrap{overflow: hidden;}
+.kontrol_more_info .background{background: url(../images/content3/image02.png) no-repeat -80px ; overflow: hidden; width: 600px; height: 2300px; background-attachment: fixed; float: left;}
+.kontrol_more_info .wrap dl{float: right; width: 600px;}
+.kontrol_more_info dt{font-family: 'Roboto', sans-serif; font-size: 1.750em; font-weight: 700; padding-left: 150px; position: relative; margin: 100px 0 80px 0;}
+.kontrol_more_info dt::after{content: ''; width: 600px; height: 1px; background: #ccc; position: absolute; top: 40px; left: 150px;} 
+.kontrol_more_info .first{margin-top: 0;}
+.kontrol_more_info dt span{display: block; position: absolute; top: -10px; left: 50px; font-weight: 100; font-size: 2em; color: #ff6600;}
+
+.kontrol_more_info .wrap dd{padding: 0 0 0 100px; text-align: justify; font-size: 1.125em; line-height: 2em; margin-left: 50px; font-weight: 400;}
+.kontrol_more_info .wrap .br{margin-bottom: 50px;}

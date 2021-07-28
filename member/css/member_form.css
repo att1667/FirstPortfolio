@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; font-weight: 100, 400, 700  */
+body{
+      background: #f7f7f7;
+}
+
+#header{
+      position: relative;
+}
+
+.logo a{
+      display: block;
+      width: 180px;
+      height: 110px;
+      background: url(logo.png) no-repeat top center;
+      text-indent: -999%;
+      overflow: hidden;
+      margin: 0 auto;
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      margin-left: -90px;
+}
+
+#content {
+      width: 1000px;
+      margin: 0 auto;
+      margin-top: 150px;
+      font-family: 'Noto Sans KR', sans-serif;
+      margin-bottom: 150px;
+}
+
+table {
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 30px;
+}
+
+th,
+td {
+      padding: 10px
+}
+
+th {
+      width: 20%;
+      text-align: left;
+}
+
+td {
+      width: 80%;
+      position: relative;
+}
+
+input,
+select {
+      padding: 5px;
+      border-radius: 2px;
+      font-size: 1.5em;
+      border: 1px solid #ccc;
+      width: 480px;
+      outline: 0;
+}
+
+table tr:last-child td {
+      text-align: center;
+      padding: 20px 0
+}
+
+.note{
+      display: block;
+      text-align: right;
+      font-size: 14px;
+      color: #ccc;
+      margin-right: 90px;
+      margin-bottom: 10px;
+}
+
+
+#content {
+      width: 800px;
+      padding: 20px 30px 30px 30px;
+      background: #fff;
+}
+
+#content h2 {
+      text-align: center;
+      font-size: 35px;
+      margin-top: 70px;
+      margin-bottom: 50px;
+}
+
+.email input{
+      width: 227px;
+      padding-right: 0;
+}
+
+.phone input{
+      width: 150px;
+      padding-right: 0;
+
+}
+
+.phone select{
+      font-size: 16px;
+      padding-right: 0;
+      padding: 11px 0 9px 0;
+      width: 150px;
+}
+
+#loadtext{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 14px;
+}
+
+#loadtext2{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 14px;
+}
+
+.chk a{
+      display: inline-block;
+      padding: 15px 40px;
+      background: #ff6600;
+      color: #fff;
+      border-radius: 5px;
+      margin-top: 30px;
+}
+
+.chk a:nth-of-type(2){
+      background: #23272f;
+      border-radius: 5px;
+}
+
+tr:nth-of-type(7){
+      margin-bottom: 50px;
+}

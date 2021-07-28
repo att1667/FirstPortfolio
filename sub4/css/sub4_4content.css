@@ -1,0 +1,21 @@
+/* 지속가능경영 내용 영역 */
+
+
+.content_area{font-family: 'Noto Sans KR', sans-serif;}
+.content_area h3{ font-size: 2.5em; text-align: center; margin: 150px 0 70px 0;}
+.content_area .box01{width: 1200px; height: 400px; padding: 100px 0; margin-bottom: 150px; width: 1200px; height: 100px; background: url(../images/content4/image01_1.png) no-repeat center;}
+.content_area p{font-size: 1.375em; font-weight: 400; line-height: 2.5em; text-align: justify; color: #fff; padding: 0 30px;}
+.content_area ul{margin-bottom: 150px;}
+.content_area li{overflow: hidden; margin-bottom: 100px;}
+.content_area .list01 img{width: 625px; height: 513px; float: left;}
+.content_area dl{width: 500px; padding: 250px 10px 0 30px; background: url(../images/content4/image01.png) no-repeat 30px 190px;}
+.content_area dt {font-size: 1.75em; font-weight: 700; margin-bottom: 50px;}
+.content_area dd {font-size: 1.125em; font-weight: 400; line-height: 2.5em; text-align: justify;}
+.content_area .list01 dl{float: right;}
+.content_area .list01 img{float: left;}
+.content_area .list02 dl{float: left;}
+.content_area .list02 img{float: right;}
+
+
+
+

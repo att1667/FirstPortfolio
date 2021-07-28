@@ -1,0 +1,20 @@
+/* 기업정보 내용 영역 */
+
+.content_area{font-family: 'Noto Sans KR', sans-serif;}
+.content_area p{font-size: 1.375em; font-weight: 400; text-align: center; margin: 0 0 70px 0;}
+.content_area .wrap .ifm01{margin: 0 0 50px 0; position: relative; left: 50%; margin-left: -560px;}
+.content_area .tabs .contlistarea {width: 1000px; height: 250px; margin-left: 100px; display: none;}
+.content_area .tabs .contlistarea span{display: block; font-size: 1.625em; text-align: center; font-weight: 700; text-align: center; margin-bottom: 70px;}
+.content_area .tabs .contlistarea p{font-size: 1.125em; font-weight: 400; text-align: justify; padding: 0 100px; line-height: 2em; color: #666; position: relative;}
+.content_area .tabs .contlistarea p::after{content: ''; display: block; position: absolute; top: -50px; left: 500px; width: 1px; height: 30px; background: #ccc;}
+
+.content_area ul{overflow: hidden; margin-bottom: 150px;}
+.content_area li{width: 362px; float: left; margin-right: 57px; position: relative;}
+.content_area li i{position: absolute; top: 100px; left: 150px;  color: #fff; font-size: 40px; }
+.content_area li dt{font-size: 20px; font-weight: 400; margin: 20px 0;}
+.content_area li dd{font-size: 18px; font-weight: 100; text-align: justify; line-height: 2em;}
+.content_area li span{display: block; font-size: 17px; margin: 20px 0 50px 0; color: #666;}
+.content_area ul .list03{margin-right: 0; float: right;}
+.content_area ul .list02 dt{margin-bottom: 50px;}
+.content_area ul .list01 span{margin-top: 50px;}
+

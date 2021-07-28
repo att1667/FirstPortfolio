@@ -1,0 +1,58 @@
+
+#content .line_map{color: #efefef; position: absolute; top: -280px; left: 50%; margin-left: -105px; font-size: 14px;}
+.sub_menu ul{width: 1040px; margin-left: -520px;}
+#content .title_area ul{overflow: hidden; width: 900px; margin: 0 auto; padding: 0 150px;}
+#content .title_area li{float: left; margin: 40px 180px 0 180px; font-size: 1.25em; text-align: center;  position: relative;}
+#content .title_area li a::after{top: -30px; left: 29px;}
+#content .title_area li:nth-of-type(1) a::after{left: 35px;}
+
+/* 상단에 고정 sticky menu */
+.navOn{position: fixed; width: 100%; z-index:60; left:0; top: 0; background: #24272f;}
+#content .navOn ul li::after{display: none;}
+#content .navOn ul li a::after{display: none;}
+.navOn ul{background: #24272f; height: 70px; padding: 0 80px 0 410px;}
+.navOn ul li a::after{display: none;}
+#content .navOn ul li{height: 60px; width: 400px; margin: 0 0 0 0; padding-top: 15px; font-weight: 400; color: #fff;}
+#content .navOn ul li a{padding: 40px 152px 40px 152px; color: #fff;}
+#content .navOn ul li a.link2{padding: 40px 160px 40px 160px; }
+#content .navOn ul li a:hover{background: #fff; color: #24272f;}
+#content .navOn li:nth-of-type(1){width: 400px;}
+#content .navOn li:nth-of-type(1) a::after{display: none;}
+#content .subNav li a.current{background: #fff; color: #24272f}
+
+
+
+.content_area{font-family: 'Noto Sans KR', sans-serif;}
+.content_area h3{ font-size: 2.5em; text-align: center; margin: 150px 0 70px 0;}
+.content_area h4{text-align: center; font-size: 30px; margin-bottom: 100px;}
+.content_area p{font-size: 1.375em; text-align: center; font-weight: 400; margin-bottom: 150px; line-height: 3em; text-align: center; color: #333;}
+
+.tire_inspection .inner_wrap{overflow: hidden; margin-bottom: 70px;}
+.tire_inspection .inner_wrap img{float: left;}
+.tire_inspection .inner_wrap strong{display: block; font-size: 1.563em; text-align: center; margin-bottom: 80px; margin-top: 130px;} 
+.tire_inspection .inner_wrap p{font-size: 1.125em; line-height: 2.5em; text-align: justify; padding: 0 40px;}
+.tire_inspection .first01{overflow: hidden; margin-bottom: 150px;}
+.tire_inspection .first01 li{width: 400px; float: left;}
+.tire_inspection .first01 li:nth-child(1) img{margin: 35px 0 40px 40px;}
+.tire_inspection .first01 li:nth-child(2) img{margin: 25px 0 42px 40px;}
+.tire_inspection .first01 li:nth-child(3) img{margin: 0 0 42px 30px;}
+.tire_inspection .first01 dl dt{font-size: 25px; color: #ff6600; font-weight: 700; text-align: center; margin-bottom: 30px;}
+.tire_inspection .first01 dl dd{font-size: 1.125em; font-weight: 400; line-height: 2.5em; margin: 0 20px;}
+.tire_inspection .second02{overflow: hidden;}
+.tire_inspection .second02 li{width: 220px; height: 300px; background: #24272f; float: left; border-radius: 50%; margin:0 50px 0 50px; font-size: 1.125em; text-align: justify; color: #fff; font-weight: 400; padding: 0 40px; line-height: 2em;}
+.tire_inspection .second02 li span{display: block; text-align: center; font-size: 28px; color: #fff; margin: 40px 0 30px 0;}
+
+.free_inspection li{overflow: hidden; margin-bottom: 120px;}
+.free_inspection li:nth-child(1) img{float: left;}
+.free_inspection li:nth-child(1) dl{width: 500px; height: 400px; float: right;}
+.free_inspection li dt{font-size: 25px; font-weight: 700; text-align: center; margin: 50px 0 70px 0;} 
+.free_inspection li dd{font-size: 1.125em; font-weight: 400; text-align: justify; line-height: 2.5em;}
+.free_inspection li:nth-child(2) img{float: right;}
+.free_inspection li:nth-child(2) dd{position: relative; text-align: center;}
+.free_inspection li:nth-child(2) dt{margin-top: 100px}
+.free_inspection li:nth-child(2) dd::before{content: ''; display: block; width: 5px; height: 5px; background: #999; position: absolute; top: 20px; left: 100px;}
+.free_inspection table{width: 1000px; margin-left: 80px; text-align: center; line-height: 2.25em;border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; margin-bottom: 150px;}
+.free_inspection table thead th{width: 300px; padding: 30px; background: #f5f5f5;}
+.free_inspection table tbody th{padding: 70px;}
+
+.free_inspection table thead th:nth-child(4){width: 600px;}

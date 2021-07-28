@@ -1,0 +1,64 @@
+.content_area{
+    text-align: center;
+}
+
+.title_area h2{
+    position: relative;
+    padding-bottom: 140px;
+}
+
+.title_area h2::after{
+    content: '';
+    width: 2px;
+    height: 70px;
+    background: #ff6600;
+    position: absolute;
+    top: 120px;
+    left: 600px;
+}
+
+#view_title h3{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.txtContain{
+    padding: 50px;
+}
+
+.txtContain span{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+#view_content img{
+    transition: all .5s;
+}
+
+#view_content img:hover{
+    transform: scale(1.2);
+}
+
+#view_button {
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#view_button a {
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #f60;
+    color: #f60;
+    font-weight: 400;
+    border-radius: 5px;
+    transition: all .4s;
+}
+
+#view_button a:hover{
+    color: #fff;
+    background: #ff6600;
+}

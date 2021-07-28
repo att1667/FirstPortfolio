@@ -1,0 +1,12 @@
+.find_id, .find_name{
+    border: 1px solid #cccc;
+    border-radius: 5px;
+    padding: 15px 10px;
+    height: 21px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.find_id{
+    margin-right: 0;
+}

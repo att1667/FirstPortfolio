@@ -1,0 +1,62 @@
+{
+    "company" : [
+        {
+            "cmenu" : "매출액",
+            "cincome1"   :  66218 ,
+            "cincome2"   :  68129 ,
+            "cincome3"   :  67951 ,
+            "cincome4"   :  68833 ,
+            "cincome5"   :  64531
+        },
+        {
+            "cmenu" : "매출총이익",
+            "cincome1"   :  25767 ,
+            "cincome2"   :  23205 ,
+            "cincome3"   :  21036 ,
+            "cincome4"   :  19221 ,
+            "cincome5"   :  19030 
+        },
+        {
+            "cmenu" : "영업이익",
+            "cincome1"   :  11032 ,
+            "cincome2"   :  7934 ,
+            "cincome3"   :  7027 ,
+            "cincome4"   :  5440 ,
+            "cincome5"   :  6283 
+        },
+        {
+            "cmenu" : "경상이익",
+            "cincome1"   :  10924 ,
+            "cincome2"   :  7430 ,
+            "cincome3"   :  6977 ,
+            "cincome4"   :  5899 ,
+            "cincome5"   :  5783 
+        },
+        {
+            "cmenu" : "순이익",
+            "cincome1"   :  8791 ,
+            "cincome2"   :  6065 ,
+            "cincome3"   :  5304 ,
+            "cincome4"   :  4296 ,
+            "cincome5"   :  3852
+        }
+        ,
+        {
+            "cmenu" : "매출액성장률(%)",
+            "cincome1"   :  3.0 ,
+            "cincome2"   :  2.9 ,
+            "cincome3"   :  -0.3 ,
+            "cincome4"   :  1.3 ,
+            "cincome5"   :  -6.2
+        },
+        {
+            "cmenu" : "순이익(%)",
+            "cincome1"   :  24.7 ,
+            "cincome2"   :  -28.1 ,
+            "cincome3"   :  -11.4 ,
+            "cincome4"   :  -22.6 ,
+            "cincome5"   :  15.5
+        }
+            
+    ]
+}

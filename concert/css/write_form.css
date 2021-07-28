@@ -1,0 +1,111 @@
+#write_form table{ 
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 80px 10px;
+}
+
+#write_form table th{
+    color: #ff6600;
+    width: 20%;
+}
+
+#write_row1{
+    position: relative;
+}
+
+#write_row1 .col2{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#write_form table .col3{
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+#write_row2 input{
+    padding: 20px;
+    outline: none;
+    width: 90%;
+    box-sizing: border-box;
+    font-size: 18px;
+
+}
+
+#write_row3 textarea{
+    outline: none;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+
+
+#write_button{
+    overflow: hidden;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#write_button li{
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+  
+}
+
+#write_button li:hover input{
+    background: #ff6600;
+    color: #fff;
+}
+
+#write_button li:hover a{
+    background: #ff6600;
+    color: #fff;
+}
+
+#write_button li a{
+    width: 130px;
+    height: 60px;
+    display: block;
+    font-size: 18px;
+    padding-top: 16px;
+    background: #fff;
+    color: #ff6600;
+    font-weight: 400;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+    height: 40px;
+    transition: all .4s;
+}
+
+#write_button li:nth-of-type(2){
+    margin-right: 0;
+}
+
+.container ul{
+    overflow: hidden;
+    margin: 20px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.container ul::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #ff6600;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+
+.container ul li{
+    float: left;
+    margin-right: 10px;
+}

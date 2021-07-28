@@ -1,0 +1,97 @@
+<?
+	session_start();
+	@extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국타이어:고객지원</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_2content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- 서브헤더영역 -->
+        <? include "../common/sub_head.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/sub6_visual.png" alt="비주얼이미지">
+        </div>
+        <div class="sub_menu">
+            <h3>고객지원</h3>
+            <ul>
+                <li><a href="./sub6_1.html">점검서비스</a></li>
+                <li class="current"><a href="./sub6_2.html">효율등급제</a></li>
+                <li><a href="./sub6_3.html">오시는길</a></li>
+                <li><a href="./sub6_4.html">고객문의</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <span class="hidden">HOME</span><i class="fas fa-home"></i> &gt; 고객지원 &gt; <strong>효율등급제</strong>
+                </div>
+                <h2>효율등급제</h2>
+            </div>
+            <div class="content_area">
+                <div class="tire_inspection">
+                     <p>타이어의 공기압은 안전과 직결된 사항으로 주기적인 체크가 필요하며,
+                        적절한 공기압 관리는 타이어의 수명까지 연장시킵니다.</p>
+                    <h4>타이어효율등급제란?</h4>
+                    <p class="p1">타이어 효율등급제란, <strong>타이어의 회전저항(마찰력, Rolling Resistance)과 젖은 노면 제동력(Wet Grip)을 측정, 이를 1~5등급으로 등급화하여 표시하는 제도</strong>입니다. 등급표시 항목 중 연비항목은 타이어의 회전저항을 나타냅니다. 회전저항이 적을수록 타이어와 노면의 마찰 저항이 줄어들어 그만큼 연비 효율을 높이고 이산화탄소 배출도 줄일 수 있게 환경보호에도 일조하게 됩니다. 젖은 노면 제동력은 회전저항을 줄이면서도 제동성을 유지하여 안정한 주행을 위한 평가 항목입니다. 회전저항을 줄이면 연비 효율을 높일 수 있지만 젖은 노면에서의 접지력이 약해질 수 있기 때문입니다.</p>
+                    <h4>연비효율표시</h4>
+                    <ul class="list01">
+                        <li>
+                            <img src="./images/content2/image01.png" alt="">
+                            <span>1등급</span>
+                        </li>
+                        <li>
+                            <img src="./images/content2/image02.png" alt="">
+                            <span>2등급</span>
+                        </li>
+                        <li>
+                            <img src="./images/content2/image03.png" alt="">
+                            <span>3등급</span>
+                        </li>
+                        <li>
+                            <img src="./images/content2/image04.png" alt="">
+                            <span>4등급</span>
+                        </li>
+                        <li>
+                            <img src="./images/content2/image05.png" alt="">
+                            <span>5등급</span>
+                        </li>
+                    </ul>
+                    <p class="p1"><strong>연비효율은 회전저항(RR, Rolling Resistance)을 기준으로 측정</strong>합니다. 회전저항은 볼이나 타이어와 같은 둥근 물체가 평면에서 일정한 속도의 직선으로 운동하는 동안 발생하는 저항을 의미합니다. 이 저항은 주로 물체의 변형, 표면의 변형 또는 두 가지 모두의 변형에 의해 발생합니다. 다른 요인으로는 휠 반경, 전진 속도, 표면 접착력 및 접촉 표면 사이의 상대적 미세 미끄러짐이 포함됩니다. 이 저항은 주로 휠이나 타이어의 재질 및 지면 종류에 따라 결정됩니다.</p>
+                    <h4>젖은노면 제동력 표시</h4>
+                    <ul class="list02">
+                        <li>
+                            <img src="./images/content2/icon01.png" alt="">
+                        </li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                    <p class="p1"><strong>젖은 노면 제동력(Wet Grip)</strong>은 브레이킹 성능을 의미하여, 안전성에 관련된 타이어 성능입니다. 회전저항이 낮은 타이어는 연비효율성에서는 유리하나 도로가 젖어 있을 때 도로와의 밀착성이 약할 수 있습니다. 따라서 타이어 에너지소비효율 등급제에서는 Label에 젖은 노면 제동력을 연비효율과 함께 기재하도록 규제하고 있습니다.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- 서브푸터영역 -->
+        <? include "../common/sub_foot.html" ?>
+        
+    </div>
+    <!-- jQuery -->
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/fullnav.js"></script>
+</body>
+</html>

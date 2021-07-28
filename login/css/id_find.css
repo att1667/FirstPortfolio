@@ -1,0 +1,152 @@
+/* 아이디찾기 */
+
+form{
+    padding-top: 70px;
+    height: 600px;
+}
+
+#title {
+    margin-top: 100px;
+}
+
+#title p {
+    margin: 30px 30px 50px 30px;
+    padding-top: 20px;
+}
+
+
+.telBox {
+    color: #ccc;
+    font-size: 10px;
+
+}
+
+.find {
+    width: 422px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0;
+    margin-top: 20px;
+    background: #24272f;
+    color: #fff;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+#id_input_button #name {
+    width: 400px;
+    height: 50px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.telBox #hp1 {
+    width: 110px;
+    text-align: center;
+    height: 52px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.telBox #hp2,
+.telBox #hp3 {
+    width: 120px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 48px;
+    padding: 0 10px;
+}
+
+.login_btn {
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    width: 422px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+#login_button{
+    color: #999;
+    display: block;
+    font-size: 15px;
+    width: 422px;
+    position: relative;
+    left: 50%;
+    margin-left: -211px;
+    margin-top: 20px;
+}
+
+.pw_btn{
+    color: #999;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+#join_btn .joinus {
+    margin: 0;
+}
+
+
+#loadtext span {
+    display: block;
+    margin: 10px 0;
+}
+
+#loadtext strong {
+    color: #999;
+}
+
+#loadtext {
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #999;
+    width: 400px;
+}
+
+#join_button {
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#join_button ul{
+    overflow: hidden;
+    width: 210px;
+    text-align: center;
+}
+
+#join_button ul li{
+    float: left;
+}
+
+#join_button ul li:nth-of-type(1){
+    margin-right: 40px;
+}
+
+.loadtexton{
+    background: #f7f7f7;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.joinUs{
+    color: #999;
+}

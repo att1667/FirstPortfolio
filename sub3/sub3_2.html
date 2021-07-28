@@ -1,0 +1,86 @@
+<?
+	session_start();
+	@extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국타이어:기업정보</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_2content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- 서브헤더영역 -->
+        <? include "../common/sub_head.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/sub3_visual.png" alt="비주얼이미지">
+        </div>
+        <div class="sub_menu">
+            <h3>기업정보</h3>
+            <ul>
+                <li><a href="./sub3_1.html">회사소개</a></li>
+                <li class="current"><a href="#">재무현황</a></li>
+                <li><a href="./sub3_3.html">기술철학</a></li>
+                <li><a href="./sub3_4.html">홍보영상</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <span class="hidden">HOME</span><i class="fas fa-home"></i> &gt; 기업정보 &gt; <strong>재무현황</strong>
+                </div>
+                <h2>재무현황</h2>
+            </div>
+            <div class="content_area">
+                <div class="finance">
+                    <p><span class="point">투명경영</span>과 건전하고 <span>안정적인 재무구조 확립</span>으로 <span>지속가능한 미래</span>를 준비합니다.<br>
+                    존경받는 기업 신뢰받는 파트너로  기업가치를 높여 주주 여러분의 기대에 부응하겠습니다.</p>
+                    <div id="chart18"></div>
+                    <p class="second">한국타이어앤테크놀로지는 <span>글로벌 브랜드 가치 강화</span>에 집중해 <br>
+                        질적 성장의 기반을 보다 견고히 하는 성과를 이뤄냈습니다.
+                    </p>
+                    <div id="content2"></div>
+                </div>
+            </div>
+        </article>
+        
+        <!-- 서브푸터영역 -->
+        <? include "../common/sub_foot.html" ?>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/fullnav.js"></script>
+    <script src="./js/Nwagon.js"></script>
+    <script src="./js/data-json.js"></script>
+    <script>
+        var options = {
+            'legend':{
+                names: ['2016', '2017', '2018', '2019', '2020'],
+				hrefs: []
+            },
+			'dataset':{
+                title:'중간고사 성적', 
+				values: [[66218,10061], [78129,18426], [57951,10817], [58833,20756], [74531,12558]],
+				colorset: ['#ff6600', '#24272f'],
+				fields:['매출액(억원)', 'EBITDA(억원)']
+            },
+			'chartDiv' : 'chart18',
+			'chartType' : 'multi_column',
+			'chartSize' : {width:1200, height:700},
+			'maxValue' : 100000,
+			'increment' : 10000
+		};
+		Nwagon.chart(options);
+    </script>
+</body>
+</html>
