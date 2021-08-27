@@ -24,8 +24,6 @@
     <div class="wrap">
         <!-- 상단 헤더영역  -->
         <? include "./common/main_head.html" ?>
-
-
         <div class="visual">
             <div class="gallery">
                 <ul>
@@ -47,13 +45,12 @@
                </ul>
             </div>
             <div class="dock">
-                <span class="mbutton  btn1" ></span>
-                <span class="mbutton  btn2" ></span>
-                <span class="mbutton  btn3" ></span>
+                <span class="mbutton btn1"></span>
+                <span class="mbutton btn2"></span>
+                <span class="mbutton btn3"></span>
                 <span class="ps"></span> 
             </div>
         </div>
-
         <article id="content">
             <h2 class="hidden">본문텐츠영역</h2>
             <section class="content_bot search">
@@ -68,16 +65,6 @@
                                 <li class="pro1"><a href="#">승용차별타이어</a></li>
                                 <li class="pro2"><a href="#">특수타이어</a></li>
                             </ul>
-                            <!--
-                            <div id="list_search3">
-                                <select name="find">
-                                    <option value='subject'>제목</option>
-                                    <option value='content'>내용</option>
-                                    <option value='nick'>별명</option>
-                                    <option value='name'>이름</option>
-                                </select>
-                            </div>
-                            -->
                                 </div>
                         <div class="wrap1">
                             <form class="search_form" action="./concert/list.php?table=concert&mode=search&find=subject" method="post">
@@ -88,9 +75,9 @@
                         </div>
                         <dl>
                             <dt>추천검색어</dt>
-                            <dd><a href="#">#키너스EV</a></dd>
-                            <dd><a href="#">#원터아이셉트프리미엄</a></dd>
-                            <dd><a href="#">#다이나프로컴포트</a></dd>
+                            <dd><a href="#">#키너지 올 웨더</a></dd>
+                            <dd><a href="#">#DM04</a></dd>
+                            <dd><a href="#">#키너지 EV</a></dd>
                         </dl>
                     </div>
             </section>
@@ -119,8 +106,8 @@
                                     <img src="./images/1.png" height="320" width="320" alt="다이나프로 HL3" class="responsivGallery-pic">
                                     <div class="w-responsivGallery-info">
                                         <dl>
-                                                <dt class="responsivGallery-name">다이나프로 HL3</dt>
-                                                <dd class="responsivGallery-position">강인함, 편안함 밸런스의 SUV타이어</dd>
+                                            <dt class="responsivGallery-name">다이나프로 HL3</dt>
+                                            <dd class="responsivGallery-position">강인함, 편안함 밸런스의 SUV타이어</dd>
                                         </dl>
                                     </div>
                                 </a>
@@ -185,7 +172,6 @@
                     </div>
                </div>
             </section>
-
             <section class="motor_sports">
                <div class="motor_sports_inner">
                     <video controls="controls" poster="./images/motor_main.png">
@@ -261,19 +247,16 @@
                </div>
             </section>
         </article>
-
         <!--하단 푸터영역  -->
         <? include "./common/main_foot.html" ?>
-
     </div>
-
     <!-- 공지팝업 -->
     <div id="showimage" style="z-index:40;position:absolute;width: 322px;;right: 100px;top:200px;">
         <script>
           function closeWin(){
              var chk = document.getElementById('Notice')
              if ( chk.checked ) {
-                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                   setCookie( "Notice", "done" , 1);
               }
           }
          if ( getCookie( "Notice" ) == "done" ) {
