@@ -14,8 +14,6 @@
 		$upfile[0]='dog1.jpg'
 		$upfile[1]='dog2.jpg'
 		$upfile[2]='dog3.jpg'
-
-
 	*/
 
 	if(!$userid) {
@@ -50,12 +48,9 @@
 		$upfile_type[$i]     = $files["type"][$i];  //파일의 종류
 		$upfile_size[$i]     = $files["size"][$i];  //파일의 실제 용량(byte)
 		$upfile_error[$i]    = $files["error"][$i];
-        //용량의 크기
-		// byte -> kb -> mb - gb - tb  (1024)
 		$file = explode(".", $upfile_name[$i]);   //dog1.jpg
-		    //$file[0]='dog1'   /  $file[1]='jpg'
-		$file_name = $file[0];  //'dog1'
-		$file_ext  = $file[1];   //'jpg'
+		$file_name = $file[0];  
+		$file_ext  = $file[1];  
 
 		if (!$upfile_error[$i])  //파일에 에러가 없으면
 		{
@@ -87,9 +82,6 @@
 					");
 				exit;
 			}
-
-            //move_uploaded_file(임시저장파일명,업로드될파일경로)  => 파일을 업로드하는 메소드
-			   // 업로드가 성공(true) / 실패(false)
 
 			if (!move_uploaded_file($upfile_tmp_name[$i], $uploaded_file[$i]) )
 			{
@@ -183,7 +175,7 @@
 		mysql_query($sql, $connect);  // $sql 에 저장된 명령 실행
 	}
 
-	mysql_close();                // DB 연결 끊기
+	mysql_close();             
 
 	echo "
 	   <script>

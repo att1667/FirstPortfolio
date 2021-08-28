@@ -7,7 +7,7 @@
 	
 	include "../lib/dbconn.php";
 
-	if ($mode=="modify")  //수정 글쓰기면....
+	if ($mode=="modify")
 	{
 		$sql = "select * from $table where num=$num";
 		$result = mysql_query($sql, $connect);
@@ -207,10 +207,8 @@
 				</form>
              </div>
         </article>
-
         <!-- 서브푸터영역 -->
         <? include "../common/sub_foot.html" ?>
-        
     </div>
     <!-- jQuery -->
     <script src="../common/js/jquery-1.12.4.min.js"></script>

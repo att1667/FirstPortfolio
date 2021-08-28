@@ -56,7 +56,7 @@
 			if ($image_width[$i] > 785)  // 게시판의 총 너비
 				$image_width[$i] = 785;
 		}
-		else    //첨부된 이미지가 없냐??
+		else  
 		{
 			$image_width[$i] = "";
 			$image_height[$i] = "";
@@ -66,7 +66,7 @@
 
 	$new_hit = $item_hit + 1;
 
-	$sql = "update $table set hit=$new_hit where num=$num";   // 글 조회수 증가시킴
+	$sql = "update $table set hit=$new_hit where num=$num";   
 	mysql_query($sql, $connect);
 ?>
 <!DOCTYPE html>
