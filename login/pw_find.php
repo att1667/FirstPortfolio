@@ -23,15 +23,15 @@
 
          $(".find").click(function() {    // id입력 상자에 id값 입력시
             $('form').css('height', '780px')
-            var id = $('.find_id').val(); //aaa
-            var name = $('.find_name').val(); //aaa
+            var id = $('.find_id').val(); 
+            var name = $('.find_name').val(); 
             var hp1 = $('#hp1').val(); 
             var hp2 = $('#hp2').val(); 
             var hp3 = $('#hp3').val(); 
 
             $.ajax({
                 type: "POST",
-                url: "find2.php", /*매개변수인 check_id.php파일을 post방식으로 넘기세요*/
+                url: "find2.php", 
                 data: "id="+ id+ "&name="+ name+ "&hp1="+hp1+ "&hp2="+hp2+ "&hp3="+hp3,  /*매개변수id도 같이 넘겨줌*/
                 cache: false, 
                 success: function(data) /*이 메소드가 완료되면 data라는 변수 안에 echo문이 들어감*/

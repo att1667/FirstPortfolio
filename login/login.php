@@ -9,10 +9,8 @@
    // 이전화면에서 이름이 입력되지 않았으면 "이름을 입력하세요"
    // 메시지 출력
    // $id=>입력id값    $pass=>입력 pass
-   
-  
 
-  if(!$id) {   //아무값도 입력되지 않았냐?
+  if(!$id) {   
     echo("
           <script>
             window.alert('아이디를 입력하세요.');
@@ -32,7 +30,7 @@
         exit;
   }
 
-  include "../lib/dbconn.php"; //db연결
+  include "../lib/dbconn.php"; 
 
   $sql = "select * from member where id='$id'";
   $result = mysql_query($sql, $connect);

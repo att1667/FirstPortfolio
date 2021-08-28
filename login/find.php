@@ -15,7 +15,7 @@
   */
 
 
-   if(!$name) {  /* !='없으면'*/
+   if(!$name) {  
      echo("
            <script>
              window.alert('이름을 입력하세요');
@@ -58,10 +58,7 @@
          $sql ="select * from member where name='$name' and hp='$hp'";
          $result = mysql_query($sql, $connect);
          $num_match = mysql_num_rows($result); //있으면 1, 없으면 null
-     
-  /* db에 이미 암호화 된 pass를 다시 암호화해서 기존의 pass로 알아낼수 없다,
-  암호화된 pass가 입력된 pass의 암호화와 일치하는가를 확인해야함*/
-
+   
         if(!$num_match) //이름은 있지만 전화번호가 일치하지 않으면
         {
            echo("
