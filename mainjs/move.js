@@ -18,14 +18,14 @@ $(document).ready(function() {
      for(var i=1;i<=imageCount;i++){
             $('.gallery .link'+i).hide(); //모든 이미지를 보이지 않게.
      }
-     $('.gallery .link'+cnt).fadeIn('slow'); //자신이미지가 
+     $('.gallery .link'+cnt).fadeIn('slow'); 
 	 		                    
      for(var i=1;i<=imageCount;i++){
           $('.btn'+i).css('background','#fff');
-          $('.btn'+i).css('width','16');  //버튼불다꺼!!
+          $('.btn'+i).css('width','16');  
       }
       $('.btn'+cnt).css('background','#fff');
-      $('.btn'+cnt).css('width','40');//자신만 불켜                 
+      $('.btn'+cnt).css('width','40');              
        if(cnt==imageCount)cnt=0;
      }
     timeonoff= setInterval( moveg , 5000);// 타이머를 동작 1~5이미지를 순서대로 자동 처리
@@ -101,10 +101,10 @@ $(document).ready(function() {
                          
     for(var i=1;i<=imageCount;i++){
         $('.btn'+i).css('background','#fff');
-        $('.btn'+i).css('width','16'); //버튼불다꺼!!
+        $('.btn'+i).css('width','16'); 
     }
     $('.btn'+cnt).css('background','#fff');
-    $('.btn'+cnt).css('width','40');//자신만 불켜  
+    $('.btn'+cnt).css('width','40');
   
     if($(this).is('.btnRight')){
       if(cnt==imageCount)cnt=0;
@@ -122,7 +122,7 @@ $(document).ready(function() {
   
   $(function () {
     $('.responsiveGallery-wrapper').responsiveGallery({
-        animatDuration: 400, //动画时长 单位 ms
+        animatDuration: 400, 
         $btn_prev: $('.responsiveGallery-btn_prev'),
         $btn_next: $('.responsiveGallery-btn_next')
     });

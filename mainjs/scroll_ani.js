@@ -12,7 +12,6 @@ $(document).ready(function () {
       
         if(scroll>=550 && scroll<900){
             $('#content section:eq(0)').addClass('boxMoveBot');
-            //첫번째 내용 콘텐츠 애니메이
         }else if(scroll>=900 && scroll<2000){
              $('#content section:eq(1)').addClass('boxMoveBot');
         }else if(scroll>=2000 && scroll<3000){
