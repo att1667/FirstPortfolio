@@ -22,7 +22,7 @@
     color: #333;
 }
 
-.mail_box{
+.mail_box {
     width: 1000px;
     margin: 0 auto;
     border: 1px solid #ccc;
@@ -38,7 +38,7 @@
     position: relative;
 }
 
-.mail_box label::before{
+.mail_box label::before {
     content: '';
     width: 8px;
     height: 8px;
@@ -100,11 +100,11 @@
     margin-bottom: 30px;
 }
 
-.alert{
+.alert {
     position: relative;
 }
 
-.alert strong{
+.alert strong {
     text-align: center;
     display: block;
     font-size: 16px;
@@ -115,6 +115,6 @@
     margin-left: -195px;
 }
 
-.alert .close{
+.alert .close {
     display: none;
 }

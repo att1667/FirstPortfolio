@@ -1,29 +1,148 @@
+#content .line_map {
+    color: #efefef;
+    position: absolute;
+    top: -280px;
+    left: 50%;
+    margin-left: -108px;
+    font-size: 14px;
+}
 
-#content .line_map{color: #efefef; position: absolute; top: -280px; left: 50%; margin-left: -108px; font-size: 14px;}
-.content_area{font-family: 'Noto Sans KR', sans-serif;}
-.content_area p{font-size: 1.375em; text-align: center; font-weight: 400; margin-bottom: 150px; line-height: 3em; text-align: center; color: #333;}
-.content_area h4{text-align: center; font-size: 2.5em; margin-bottom: 100px;}
-.content_area strong{color: #ff6600;}
-.tire_inspection .p1{text-align: justify;}
-.tire_inspection .list01{overflow: hidden; margin-bottom: 130px;}
-.tire_inspection .list01 li{float: left; margin-right: 45px;}
-.tire_inspection .list01 li:nth-child(5){margin-right: 0;}
-.tire_inspection .list01 li span{display: block; text-align: center; width: 100px; padding: 10px 0;  margin: 40px 0 0 50px;}
-.tire_inspection .list01 li:nth-child(1) span{background: #8acd00; color: #fff;} 
-.tire_inspection .list01 li:nth-child(2) span{background: #dce400; color: #fff;} 
-.tire_inspection .list01 li:nth-child(3) span{background: #f9f000; color: #fff;} 
-.tire_inspection .list01 li:nth-child(4) span{background: #ffa300; color: #fff;} 
-.tire_inspection .list01 li:nth-child(5) span{background: #ff0006; color: #fff;} 
-.tire_inspection .list02{overflow: hidden; margin-left: 70px; margin-bottom: 130px;}
-.tire_inspection .list02 li{float: left; width: 70px; height: 70px;  border: 1px solid #ccc; font-size: 30px; font-weight: 700; text-align: center; padding: 60px 50px 50px 50px; transition: all .5s;}
-.tire_inspection .list02 li img{margin-top: 0;}
-.tire_inspection .list02 li:nth-child(1){border-right: none;  width: 70px; height: 100px; padding-top: 30px;}
-.tire_inspection .list02 li:nth-child(2){border-right: none;}
-.tire_inspection .list02 li:nth-child(2):hover {background: #8acd00;}
-.tire_inspection .list02 li:nth-child(3){border-right: none;}
-.tire_inspection .list02 li:nth-child(3):hover {background: #dce400;}
-.tire_inspection .list02 li:nth-child(4){border-right: none;}
-.tire_inspection .list02 li:nth-child(4):hover {background: #f9f000;}
-.tire_inspection .list02 li:nth-child(5){border-right: none;}
-.tire_inspection .list02 li:nth-child(5):hover {background: #ffa300;}
-.tire_inspection .list02 li:nth-child(6):hover {background: #ff0006;}
+.content_area {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.content_area p {
+    font-size: 1.375em;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 150px;
+    line-height: 3em;
+    text-align: center;
+    color: #333;
+}
+
+.content_area h4 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 100px;
+}
+
+.content_area strong {
+    color: #ff6600;
+}
+
+.tire_inspection .p1 {
+    text-align: justify;
+}
+
+.tire_inspection .list01 {
+    overflow: hidden;
+    margin-bottom: 130px;
+}
+
+.tire_inspection .list01 li {
+    float: left;
+    margin-right: 45px;
+}
+
+.tire_inspection .list01 li:nth-child(5) {
+    margin-right: 0;
+}
+
+.tire_inspection .list01 li span {
+    display: block;
+    text-align: center;
+    width: 100px;
+    padding: 10px 0;
+    margin: 40px 0 0 50px;
+}
+
+.tire_inspection .list01 li:nth-child(1) span {
+    background: #8acd00;
+    color: #fff;
+}
+
+.tire_inspection .list01 li:nth-child(2) span {
+    background: #dce400;
+    color: #fff;
+}
+
+.tire_inspection .list01 li:nth-child(3) span {
+    background: #f9f000;
+    color: #fff;
+}
+
+.tire_inspection .list01 li:nth-child(4) span {
+    background: #ffa300;
+    color: #fff;
+}
+
+.tire_inspection .list01 li:nth-child(5) span {
+    background: #ff0006;
+    color: #fff;
+}
+
+.tire_inspection .list02 {
+    overflow: hidden;
+    margin-left: 70px;
+    margin-bottom: 130px;
+}
+
+.tire_inspection .list02 li {
+    float: left;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 60px 50px 50px 50px;
+    transition: all .5s;
+}
+
+.tire_inspection .list02 li img {
+    margin-top: 0;
+}
+
+.tire_inspection .list02 li:nth-child(1) {
+    border-right: none;
+    width: 70px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.tire_inspection .list02 li:nth-child(2) {
+    border-right: none;
+}
+
+.tire_inspection .list02 li:nth-child(2):hover {
+    background: #8acd00;
+}
+
+.tire_inspection .list02 li:nth-child(3) {
+    border-right: none;
+}
+
+.tire_inspection .list02 li:nth-child(3):hover {
+    background: #dce400;
+}
+
+.tire_inspection .list02 li:nth-child(4) {
+    border-right: none;
+}
+
+.tire_inspection .list02 li:nth-child(4):hover {
+    background: #f9f000;
+}
+
+.tire_inspection .list02 li:nth-child(5) {
+    border-right: none;
+}
+
+.tire_inspection .list02 li:nth-child(5):hover {
+    background: #ffa300;
+}
+
+.tire_inspection .list02 li:nth-child(6):hover {
+    background: #ff0006;
+}
