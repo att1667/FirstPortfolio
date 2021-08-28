@@ -14,8 +14,6 @@
 		$upfile[0]='dog1.jpg'
 		$upfile[1]='dog2.jpg'
 		$upfile[2]='dog3.jpg'
-
-
 	*/
 
 	if(!$userid) {

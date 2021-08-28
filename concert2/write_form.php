@@ -204,10 +204,8 @@
 				</form>
             </div>
         </article>
-
         <!-- 서브푸터영역 -->
         <? include "../common/sub_foot.html" ?>
-        
     </div>
        <!-- jQuery -->
        <script src="../common/js/jquery-1.12.4.min.js"></script>
