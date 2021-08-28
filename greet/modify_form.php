@@ -10,7 +10,7 @@
 		$_SESSION['usernick']
 		$_SESSION['userlevel']
 
-		$num=1  (나야나~~~~~)
+		$num=1 
 		$page=2
 	*/
 	
@@ -81,7 +81,6 @@
                         </tr>
                     </tbody>
 		        </table>
-
                 <ul id="write_button">
                     <li>
                         <input type="submit" value="확인">
@@ -91,16 +90,10 @@
                     </li>
                 </ul>
 		    </form>
-         
-
-
-
             </div>
         </article>
-
         <!-- 서브푸터영역 -->
         <? include "../common/sub_foot.html" ?>
-        
     </div>
     <!-- jQuery -->
     <script src="../common/js/jquery-1.12.4.min.js"></script>

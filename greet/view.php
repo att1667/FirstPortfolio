@@ -11,7 +11,7 @@
 		$_SESSION['usernick']
 		$_SESSION['userlevel']
 
-		$num=1  (나야나~~~~~)
+		$num=1
         $page=1
 	*/
 
@@ -137,14 +137,8 @@
                         }
                     ?>
 
-            </li>
-		</ul>   
-
-
-
-
-
-
+                </li>
+		    </ul>   
             </div>
         </article>
 

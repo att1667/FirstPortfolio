@@ -10,7 +10,7 @@
 		$_SESSION['usernick']
 		$_SESSION['userlevel']
 
-		$num=1  (나야나~~~~~)
+		$num=1  
 		$page=2
 	*/
 	
@@ -80,14 +80,13 @@
 			<div class="write_line"></div>
 		</div>
 
-		<div id="write_button"><input type="image" src="../img/ok.png">&nbsp;
-								<a href="list.php?page=<?=$page?>"><img src="../img/list.png"></a>
+		<div id="write_button">
+			<input type="image" src="../img/ok.png">&nbsp;
+			<a href="list.php?page=<?=$page?>"><img src="../img/list.png"></a>
 		</div>
 		</form>
-
 	</div> <!-- end of col2 -->
   </div> <!-- end of content -->
 </div> <!-- end of wrap -->
-
 </body>
 </html>

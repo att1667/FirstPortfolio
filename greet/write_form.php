@@ -73,9 +73,6 @@
                         </li>
                     </ul>
                 </form>
-
-
-
             </div>
         </article>
 
