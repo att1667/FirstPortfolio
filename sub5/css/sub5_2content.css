@@ -1,29 +1,180 @@
-#content .line_map{color: #efefef; position: absolute; top: -280px; left: 50%; margin-left: -120px; font-size: 14px;}
-.content_area{font-family: 'Noto Sans KR', sans-serif;}
+#content .line_map {
+    color: #efefef;
+    position: absolute;
+    top: -280px;
+    left: 50%;
+    margin-left: -120px;
+    font-size: 14px;
+}
 
-.content_area h2{font-family: 'Roboto', sans-serif;}
-.content_area h3{ font-size: 2.5em; text-align: center; margin-bottom: 120px;}
-.content_area p{font-size: 1.375em; text-align: center; font-weight: 400; margin-bottom: 150px; line-height: 3em; text-align: center; color: #333;}
-.culture p strong{font-weight: 700; color: #ff6600;}
-.people ul{overflow: hidden; position: relative; padding-bottom: 100px;}
-.people ul dt{font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1.375em; margin-bottom: 20px; color: #333;}
-.people ul dd{font-size: 1.125em; font-weight: 400; line-height: 2.5em; text-align: justify; margin-bottom: 30px;}
-.people li{width: 220px;}
-.people ul .employee01{float: left; padding-right: 10px;} 
-.people ul .employee02{float: right;} 
-.people ul span{position: absolute; display: block; width: 200px; height: 160px; border: 1px dashed #ff6600; color: #ff6600; border-radius: 50%; font-size: 1.563em; font-weight: 700; text-align: center; padding: 70px 30px 30px 30px; line-height: 2.25em;}
-.people ul .employee01 span{top: 80px; left: 300px;} 
-.people ul .employee01 span::after{content: ''; display: block; width: 10px; height: 10px; background: #ff6600; border-radius: 50%; position: absolute; top: 90px; left: 0;}
-.people ul .employee02 span{top: 80px; right: 300px;} 
-.people ul .employee02 span::after{content: ''; display: block; width: 10px; height: 10px; background: #ff6600; border-radius: 50%; position: absolute; top: 150px; right: -3px;}
+.content_area {
+    font-family: 'Noto Sans KR', sans-serif;
+}
 
-.people_value{margin-bottom: 150px;}
-.people_value ul{overflow: hidden;}
-.people_value ul li{float: left; width: 313px; margin-right: 130px;} 
-.people_value ul li:nth-child(3){margin-right: 0;}
-.people_value ul img{margin-bottom: 60px;}
-.people_value ul dt{font-size: 1.375em; font-weight: 700; text-align: center;}
-.people_value ul dt strong{display: block;}
-.people_value ul dt span{display: block; color: #999; text-transform: capitalize; margin: 20px 0 110px 0; font-family: 'Roboto', sans-serif; position: relative;}
-.people_value ul li span::after{content: ''; display: block; width: 1px; height: 30px; background: #ccc; position: absolute; top: 70px; left: 160px;}
-.people_value ul li dd{font-size: 1.125em; font-weight: 400; line-height: 2.25em; text-align: justify;}
+.content_area h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content_area h3 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.content_area p {
+    font-size: 1.375em;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 150px;
+    line-height: 3em;
+    text-align: center;
+    color: #333;
+}
+
+.culture p strong {
+    font-weight: 700;
+    color: #ff6600;
+}
+
+.people ul {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.people ul dt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.375em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.people ul dd {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 2.5em;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.people li {
+    width: 220px;
+}
+
+.people ul .employee01 {
+    float: left;
+    padding-right: 10px;
+}
+
+.people ul .employee02 {
+    float: right;
+}
+
+.people ul span {
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 160px;
+    border: 1px dashed #ff6600;
+    color: #ff6600;
+    border-radius: 50%;
+    font-size: 1.563em;
+    font-weight: 700;
+    text-align: center;
+    padding: 70px 30px 30px 30px;
+    line-height: 2.25em;
+}
+
+.people ul .employee01 span {
+    top: 80px;
+    left: 300px;
+}
+
+.people ul .employee01 span::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #ff6600;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 0;
+}
+
+.people ul .employee02 span {
+    top: 80px;
+    right: 300px;
+}
+
+.people ul .employee02 span::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #ff6600;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    right: -3px;
+}
+
+.people_value {
+    margin-bottom: 150px;
+}
+
+.people_value ul {
+    overflow: hidden;
+}
+
+.people_value ul li {
+    float: left;
+    width: 313px;
+    margin-right: 130px;
+}
+
+.people_value ul li:nth-child(3) {
+    margin-right: 0;
+}
+
+.people_value ul img {
+    margin-bottom: 60px;
+}
+
+.people_value ul dt {
+    font-size: 1.375em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.people_value ul dt strong {
+    display: block;
+}
+
+.people_value ul dt span {
+    display: block;
+    color: #999;
+    text-transform: capitalize;
+    margin: 20px 0 110px 0;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.people_value ul li span::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 30px;
+    background: #ccc;
+    position: absolute;
+    top: 70px;
+    left: 160px;
+}
+
+.people_value ul li dd {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 2.25em;
+    text-align: justify;
+}
