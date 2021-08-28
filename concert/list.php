@@ -25,7 +25,7 @@
 	include "../lib/dbconn.php";
 
 	if (!$scale){
-       $scale=9; 			// 한 화면에 표시되는 글 수
+       $scale=9; // 한 화면에 표시되는 글 수
 	}
 
     if ($mode=="search")
@@ -58,8 +58,8 @@
 	else
 		$total_page = floor($total_record/$scale) + 1; 
  
-	if (!$page)                 // 페이지번호($page)가 0 일 때
-		$page = 1;              // 페이지 번호를 1로 초기화
+	if (!$page)   // 페이지번호($page)가 0 일 때
+		$page = 1;   // 페이지 번호를 1로 초기화
  
 	// 표시할 페이지($page)에 따라 $start 계산  
 	$start = ($page - 1) * $scale;      

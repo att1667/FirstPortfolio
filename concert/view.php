@@ -42,7 +42,7 @@
 	
 	for ($i=0; $i<3; $i++)  //첨부된 이미지의 정보를 빼내는 반복문(너비/높이/타입)
 	{
-		if ($image_copied[$i]) //첨부된 이미지가 있냐?? 0 1 2   $image_copied[0]='2021_07_22_11_00_35_0.jpg'
+		if ($image_copied[$i]) 
 		{ 
 			$imageinfo = GetImageSize("./data/".$image_copied[$i]);
 			        //해당 이미지의 정보(너비/높이/타입)
@@ -56,7 +56,7 @@
 			if ($image_width[$i] > 785)  // 게시판의 총 너비
 				$image_width[$i] = 785;
 		}
-		else    //첨부된 이미지가 없냐??
+		else   
 		{
 			$image_width[$i] = "";
 			$image_height[$i] = "";
