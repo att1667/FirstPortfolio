@@ -1,32 +1,158 @@
+.content_area {
+    font-family: 'Noto Sans KR', sans-serif;
+}
 
-.content_area{font-family: 'Noto Sans KR', sans-serif;}
-.content_area h3{ font-size: 2.5em; text-align: center; margin: 150px 0 70px 0;}
-
-
-#content .title_area .last::after{content: ''; display: block; width: 2000px; height: 1px; background: #ccc; position: absolute; top: -20px; z-index: -1;}
-#content .title_area .first{margin-left: 130px;}
-#content .title_area .first a::after{left: 60px;}
-#content .title_area .last a::after{left: 40px;}
-
-
-.safety{margin-bottom: 130px;}
-.content_area .safety p{font-size: 1.375em; text-align: center; font-weight: 400; line-height: 3em;}
-.safety .box01{margin-top: 100px; overflow: hidden;}
-.safety .box01 p{overflow: hidden; text-align: justify; margin-bottom: 30px;}
-.safety .point{ font-weight: 700; color: #ff6600;}
-.safety .wrap{width: 700px; float: left; margin-right: 80px; margin-bottom: 20px;}
-.safety .image01{margin-top: 150px;}
-.safety .wrap p{font-size: 18px; font-weight: 400; line-height: 2em;}
-.safety .wrap img{width: 363px; height: 601px; float: right;}
-.safety .wrap ul{margin-bottom: 30px;}
-.safety .wrap li{font-size: 18px; font-weight: 400; line-height: 2em; margin-bottom: 30px;}
+.content_area h3 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 150px 0 70px 0;
+}
 
 
+#content .title_area .last::after {
+    content: '';
+    display: block;
+    width: 2000px;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+}
+
+#content .title_area .first {
+    margin-left: 130px;
+}
+
+#content .title_area .first a::after {
+    left: 60px;
+}
+
+#content .title_area .last a::after {
+    left: 40px;
+}
 
 
-.social_contribution p{font-size: 1.375em; text-align: center; font-weight: 400; margin-bottom: 100px; line-height: 3em;}
-.social_contribution dl{width: 800px; padding: 100px; background: #fff; position: relative; border-radius: 0 0 0 100px; left: 50%; margin-left: -500px; margin-bottom: 180px; border-top: 10px solid #ff6600;  box-shadow: 2px 5px 7px 3px #ccc; overflow: hidden;}
-.social_contribution dl span{display: block; position: absolute; bottom: -80px; right: 0; font-size: 180px; color: #f0f0f0;}
-.social_contribution dt{font-size: 1.875em; font-weight: 700; margin-bottom: 70px;}
-.social_contribution dd{font-weight: 400; font-size: 1.125em; text-align: justify; margin-bottom: 20px; padding-left: 30px; line-height: 2em; position: relative;}
-.social_contribution dd::before{content: ''; display: block; width: 7px; height: 7px; border-radius: 50%; background: #666; margin-right: 10px; position: absolute; top: 12px; left: 0;}
+.safety {
+    margin-bottom: 130px;
+}
+
+.content_area .safety p {
+    font-size: 1.375em;
+    text-align: center;
+    font-weight: 400;
+    line-height: 3em;
+}
+
+.safety .box01 {
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.safety .box01 p {
+    overflow: hidden;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.safety .point {
+    font-weight: 700;
+    color: #ff6600;
+}
+
+.safety .wrap {
+    width: 700px;
+    float: left;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.safety .image01 {
+    margin-top: 150px;
+}
+
+.safety .wrap p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.safety .wrap img {
+    width: 363px;
+    height: 601px;
+    float: right;
+}
+
+.safety .wrap ul {
+    margin-bottom: 30px;
+}
+
+.safety .wrap li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+
+
+
+
+.social_contribution p {
+    font-size: 1.375em;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 100px;
+    line-height: 3em;
+}
+
+.social_contribution dl {
+    width: 800px;
+    padding: 100px;
+    background: #fff;
+    position: relative;
+    border-radius: 0 0 0 100px;
+    left: 50%;
+    margin-left: -500px;
+    margin-bottom: 180px;
+    border-top: 10px solid #ff6600;
+    box-shadow: 2px 5px 7px 3px #ccc;
+    overflow: hidden;
+}
+
+.social_contribution dl span {
+    display: block;
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    font-size: 180px;
+    color: #f0f0f0;
+}
+
+.social_contribution dt {
+    font-size: 1.875em;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.social_contribution dd {
+    font-weight: 400;
+    font-size: 1.125em;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    line-height: 2em;
+    position: relative;
+}
+
+.social_contribution dd::before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #666;
+    margin-right: 10px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
