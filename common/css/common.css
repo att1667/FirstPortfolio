@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 /* CSS Reset */
-
 html, body, div , span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,14 +41,10 @@ img{border: 0; vertical-align: top}
 
 /* 스킵네비게이션 */
 #skipNav{position:relative;width:100%;overflow:hidden; z-index: 60;}
-#skipNav a{display:block; height:1px; margin-bottom:-1px;
-   overflow:hidden; text-align:center; text-decoration:none; color:#fff; font-size:16px;}
-#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
-    height:auto;padding:10px 0; background: #ff6600;}
-
+#skipNav a{display:block; height:1px; margin-bottom:-1px; overflow:hidden; text-align:center; text-decoration:none; color:#fff; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{height:auto;padding:10px 0; background: #ff6600;}
 
 /* 해더공통영역 */
-
 .wrap{width: 100%; overflow: hidden;}
 #headerArea{position: fixed; width: 100%;  z-index: 50; background: #fff; box-shadow: 0 0 10px #999; height: 125px;}
 #headerArea .header_inner{width: 1200px; margin: 0 auto; height: 125px;}
@@ -62,26 +57,16 @@ img{border: 0; vertical-align: top}
 #headerArea .logo{width: 217px; float: left; margin-left: 30px;}
 #headerArea .logo a{display: block; width: 217px; height: 110px; background: url(../images/logo.jpg) no-repeat top center; text-indent: -999%; overflow: hidden}
 
-#gnb{width: 953px; float: right;}
-
 /* gnb영역 */
+#gnb{width: 953px; float: right;}
 #gnb ul.dropdownmenu{float:left; font-family: 'Noto Sans KR', sans-serif; padding-top: 10px;height: 101px;}
 #gnb ul.dropdownmenu li.menu{position:relative; float:left; width:16.66%;}
 #gnb ul.dropdownmenu li h3{ font-weight: 700; font-size: 1.125em;}
-
 #gnb ul.dropdownmenu li a.depth1{display:block; width:166px; text-align: center;padding: 16px 0; transition: all .5s;}
-
-
-
-/* 제일 신경써야 하는 부분!!! 2depth */
 #gnb ul.dropdownmenu li ul{width:166px;height: 130px; position:absolute; top:40px; left:0; padding: 35px 0 60px 0; line-height:2.5em; display: none;}
-/* 제일 긴 뎁스의 길에에 맞춰 height 넣어주기 꼭 백그라운드 넣어서 빈공간 없는지 확인할 것 */
-
-
 #gnb ul.dropdownmenu li ul li{ text-align:center;  font-size: 15px;}
 #gnb ul.dropdownmenu li ul li a{display: block; color:#666;  transition: all .5s;}
 #gnb ul.dropdownmenu li ul li a:hover{color:#333; font-weight: bold;}
-
 
 /* 푸터공통영역 */
 #footerArea{background: #2e2e2e; color: #999; height: 210px; font-family: 'Noto Sans KR', sans-serif;}
@@ -95,18 +80,17 @@ img{border: 0; vertical-align: top}
 #footerArea .footer_menu li a{color: #999;}
 #footerArea .footer_menu address{line-height: 1.5em;}
 #footerArea .family{width: 220px; float: right; margin-top: 50px;}
+
+
+/* 푸터 패밀리사이트 */
 .family img{margin-bottom: 10px;}
 .family ul{overflow: hidden; font-size: 18px; margin-left: 25px;}
 .family li{float: left; margin-right: 30px;}
 .family .sns{margin-left: 40px;}
 .family .sns a{color: #999;}
-
-
-/* 푸터 패밀리사이트 */
 .select{width:182px; height:39px; background: #3c3c3c; position:relative; margin-bottom: 15px;}
 .select .arrow{ display:block; font-size: 14px; padding: 8px 20px 5px 0; text-align: center; color: #999; position: relative;}
 .select .arrow .fas{font-size: 14px; color: #999; position: absolute; bottom: 6px; right: 15px;}
-/* .select .arrow:hover{color:#999} */
 .select .aList{ position:absolute; top: -165px; left:-25px; width:182px; background: rgba(60,60,60,.8); display: none;}
 .select .aList li{ line-height:1.5em;}
 .select .aList li a{display:block; padding: 3px 2px; font-size: 14px; width: 182px; text-align: center; color: #999; transition: all .5s;} 
@@ -114,8 +98,6 @@ img{border: 0; vertical-align: top}
 
 
 /* 상단 이동 버튼 */
-.topMove{display:block; width: 60px;
-        height: 60px; background: #ff6600; border-radius: 50%;
-        position: fixed; left:50%; margin-left: 610px; bottom: 100px;}
+.topMove{display:block; width: 60px; height: 60px; background: #ff6600; border-radius: 50%; position: fixed; left:50%; margin-left: 610px; bottom: 100px;}
 .topMove .fas{font-size: 20px; color: #fff; margin: 20px; text-align: center; display: block;}
 
