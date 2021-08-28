@@ -1,30 +1,141 @@
 /* 기업정보 내용 영역 */
 
-.content_area{font-family: 'Noto Sans KR', sans-serif;}
-.content_area .finance p{font-size: 1.375em; text-align: center; font-weight: 400; margin-bottom: 100px;}
-.content_area .finance p span{color: #ff6600; font-weight: 700; line-height: 3em;}
-.content_area img{margin: 50px 0 150px 0;}
-.content_area .second{padding-bottom: 100px;}
-.content_area .table{position: relative;}
-.content_area .table .add_info{position: absolute; top: -40px; right: 0;}
-.content_area .add_info{display: block; position: absolute; color: #666; font-size: 16px; top: -100px; right: -100px;}
-.content_area table{width: 1200px; border-top: 2px solid #333; border-bottom: 2px solid #333; margin: 50px 0 150px 0; font-size: 1.125em;}
-.content_area th, td{padding: 40px; text-align: center;}
-.content_area tr{border-bottom: 1px solid #ccc;}
-.content_area table .first{background: #f9f9f9;}
+.content_area {
+    font-family: 'Noto Sans KR', sans-serif;
+}
 
-.background text{fill:#333; font-size:11px}
-ul.accessibility {font-size: 1px;height: 1px; line-height: 1px; overflow: hidden; width: 1px;}
-.background .fields text{fill:#333;font-size:16px}
-.foreground .labels text{fill:#333;font-size:11px}
-.tooltip text{fill:#333;font-size: 16px;}
-.tooltip rect{fill:rgba(255,255,255,0.9);stroke:#ccc;stroke-width:0.5;}
-.fields text{fill:#666;font-size:11px}
-.guide_line{stroke:#4010ad;stroke-width:1}
-.Nwagon_multi_column .background line.h{stroke:#000;stroke-width:0.2;}
-.Nwagon_multi_column .background line.v{stroke:#000;stroke-width:0.1;}
-.Nwagon_multi_column .foreground .columns g rect{fill-opacity:0.9;cursor:pointer;}
-.Nwagon_multi_column .foreground .tooltip text{fill:#666;font-size: 16px;}
-.Nwagon_multi_column .foreground .tooltip rect{fill:rgba(255,255,255,0.9);}
-.Nwagon_multi_column .labels text, .Nwagon_stacked_column .background text{fill:#666;font-size:16px;}
+.content_area .finance p {
+    font-size: 1.375em;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
 
+.content_area .finance p span {
+    color: #ff6600;
+    font-weight: 700;
+    line-height: 3em;
+}
+
+.content_area img {
+    margin: 50px 0 150px 0;
+}
+
+.content_area .second {
+    padding-bottom: 100px;
+}
+
+.content_area .table {
+    position: relative;
+}
+
+.content_area .table .add_info {
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.content_area .add_info {
+    display: block;
+    position: absolute;
+    color: #666;
+    font-size: 16px;
+    top: -100px;
+    right: -100px;
+}
+
+.content_area table {
+    width: 1200px;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    margin: 50px 0 150px 0;
+    font-size: 1.125em;
+}
+
+.content_area th,
+td {
+    padding: 40px;
+    text-align: center;
+}
+
+.content_area tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.content_area table .first {
+    background: #f9f9f9;
+}
+
+.background text {
+    fill: #333;
+    font-size: 11px
+}
+
+ul.accessibility {
+    font-size: 1px;
+    height: 1px;
+    line-height: 1px;
+    overflow: hidden;
+    width: 1px;
+}
+
+.background .fields text {
+    fill: #333;
+    font-size: 16px
+}
+
+.foreground .labels text {
+    fill: #333;
+    font-size: 11px
+}
+
+.tooltip text {
+    fill: #333;
+    font-size: 16px;
+}
+
+.tooltip rect {
+    fill: rgba(255, 255, 255, 0.9);
+    stroke: #ccc;
+    stroke-width: 0.5;
+}
+
+.fields text {
+    fill: #666;
+    font-size: 11px
+}
+
+.guide_line {
+    stroke: #4010ad;
+    stroke-width: 1
+}
+
+.Nwagon_multi_column .background line.h {
+    stroke: #000;
+    stroke-width: 0.2;
+}
+
+.Nwagon_multi_column .background line.v {
+    stroke: #000;
+    stroke-width: 0.1;
+}
+
+.Nwagon_multi_column .foreground .columns g rect {
+    fill-opacity: 0.9;
+    cursor: pointer;
+}
+
+.Nwagon_multi_column .foreground .tooltip text {
+    fill: #666;
+    font-size: 16px;
+}
+
+.Nwagon_multi_column .foreground .tooltip rect {
+    fill: rgba(255, 255, 255, 0.9);
+}
+
+.Nwagon_multi_column .labels text,
+.Nwagon_stacked_column .background text {
+    fill: #666;
+    font-size: 16px;
+}
